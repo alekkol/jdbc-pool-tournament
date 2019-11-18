@@ -37,7 +37,7 @@ public class DataSourceBenchmark {
     private String pool;
     @Param({"0", "1", "5"})
     private long executeDurationMillis;
-    @Param({"1", "3", "5", "10", "20", "30"})
+    @Param({"3", "5", "10", "20", "30"})
     private int poolSize;
 
     private DataSource dataSource;
